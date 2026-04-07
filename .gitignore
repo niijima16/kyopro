@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+
+# VS Code workspace-local files (settings.json is tracked for project consistency)
+.vscode/zsh/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+
+# OS / editor
+.DS_Store
+.env
+*.swp
+*.swo
+*~
+*.log
